@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>help.hope</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+
+</head>
+<body>
+
+    <div class="login"><p>Admin Login</p></div>
+
+    <div class="container">
+      <h1 class="brand"><span>help.</span>hope</h1>
+      <div class="wrapper animated bounceInLeft">
+        <div class="company-info">
+          <img src="images/BoHStamp.png">
+          <ul>
+            <li>babies of homelessness</li>
+            <li>206.719.0335</li>
+          </ul>
+        </div>
+
+        
+        <div class="expandContentHelp"><p>I Have Supplies</p></div>
+        <div class="help" style="display:none">
+          <form>
+            <p>
+              <label>Name</label>
+              <input type="text" name="name">
+            </p>
+            <p>
+              <label>Email Address</label>
+              <input type="email" name="email">
+            </p>
+            <p>
+              <label>Item to give</label>
+              <input type="text" name="itemHelp">
+            </p>
+            <p>
+              <label>Item to give</label>
+              <input type="text" name="itemHelpOne">
+            </p>
+            <p class="full">
+              <label>Message</label>
+              <textarea name="message" rows="5"></textarea>
+            </p>
+            <p class="full">
+              <button>Submit</button>
+            </p>
+          </form>
+          </div>
+
+
+        <div class="expandContentHope"><p>I Need Supplies</p></div>
+        <div class="hope" style="display:none">
+          <form>
+            <p>
+              <label>Name</label>
+              <input type="text" name="name">
+            </p>
+            <p>
+              <label>Email Address</label>
+              <input type="email" name="email">
+            </p>
+            <p>
+              <label>Item Needed</label>
+              <input type="text" name="itemHope">
+            </p>
+            <p>
+              <label>Item Needed</label>
+              <input type="text" name="itemHopeOne">
+            </p>
+            <p class="full">
+              <label>Message</label>
+              <textarea name="message" rows="5"></textarea>
+            </p>
+            <p class="full">
+              <button>Submit</button>
+            </p>
+          </form>
+        </div>
+
+
+    </div>
+  </div>
+
+ <script>
+      $('.expandContentHelp').click(function(){
+        $('.help').slideToggle('slow');
+    });
+  
+    $('.expandContentHope').click(function(){
+        $('.hope').slideToggle('slow');
+    });
+  </script>
+
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #9CD3CA;
+    color: #485e74;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1em;
+}
+
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:1em;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.brand{
+    text-align: center;
+}
+
+.brand span{
+    color: white;
+}
+
+.wrapper{
+    box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+}
+
+.wrapper > *{
+    padding: 1em;
+}
+
+.company-info{
+    background: white;
+    text-align: center;
+}
+
+.company-info h3, .company-info ul{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.expandContentHelp{
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+}
+
+.expandContentHelp:hover{
+    background: #c0fff3;
+}
+
+.expandContentHope{
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+}
+
+.expandContentHope:hover{
+    background: #c0fff3;
+}
+
+.help{
+    background: #9CD3CA;
+}
+
+.hope{
+    background: #9CD3CA;
+}
+
+/* FORM STYLES */
+
+.help form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.help form label{
+    display: block;
+}
+.help form p{
+    margin: 0;
+}
+
+.hope form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.hope form label{
+    display: block;
+}
+.hope form p{
+    margin: 0;
+}
+
+.help form .full{
+    grid-column: 1 / 3;
+}
+
+.hope form .full{
+    grid-column: 1/3;
+}
+
+.help form button, .help form input, .help form textarea{
+    width: 100%;
+    padding: 1em;
+}
+
+.hope form button, .hope form input, .hope form textarea{
+    width: 100%;
+    padding: 1em;
+}
+
+.help form button{
+    background: #c0fff3;
+    border: 0;
+}
+
+.hope form button{
+    background: #c0fff3;
+    border: 0;
+}
+
+.login {
+    box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+    width: 20%;
+    border-radius: 12px;
+}
+
+/* BIG SCREENS 
+
+@media(min-width:700px){
+    .wrapper{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+  
+    .wrapper > *{
+      padding:2em;
+    }
+  
+    .company-info h3, .company-info ul, .brand{
+      text-align: left;
+    }
+  }
+*/
